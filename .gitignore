@@ -39,5 +39,5 @@ Thumbs.db
 
 # Optional: avoid committing internal policy PDFs.
 # Remove or comment these lines if your team intentionally stores documents in git.
-documents/*.pdf
+# documents/*.pdf
 *.pdf
