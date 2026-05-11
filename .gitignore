@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Local indexes, caches, and generated artifacts
+.cache/
+cache/
+faiss_index/
+.faiss_index/
+*.faiss
+*.pkl
+*.pickle
+
+# Logs
+*.log
+logs/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Optional: avoid committing internal policy PDFs.
+# Remove or comment these lines if your team intentionally stores documents in git.
+documents/*.pdf
+*.pdf
